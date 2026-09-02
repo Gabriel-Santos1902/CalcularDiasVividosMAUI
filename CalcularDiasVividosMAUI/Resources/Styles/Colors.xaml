@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!-- Suas Cores Personalizadas (Altere os códigos hexadecimais aqui) -->
+    <Color x:Key="Primary">#121212</Color>
+    <Color x:Key="PrimaryDark">#000000</Color>
+    <Color x:Key="PrimaryDarkText">#FFFFFF</Color>
+    <Color x:Key="Secondary">#333333</Color>
+    <Color x:Key="SecondaryDarkText">#FFFFFF</Color>
+    <Color x:Key="Tertiary">#555555</Color>
+
+    <!-- Base -->
+    <Color x:Key="White">#FFFFFF</Color>
+    <Color x:Key="Black">#000000</Color>
+    <Color x:Key="OffBlack">#1A1A1A</Color>
+
+    <!-- Escala de Cinzas -->
+    <Color x:Key="Gray100">#F4F4F4</Color>
+    <Color x:Key="Gray200">#E0E0E0</Color>
+    <Color x:Key="Gray300">#CCCCCC</Color>
+    <Color x:Key="Gray400">#999999</Color>
+    <Color x:Key="Gray500">#666666</Color>
+    <Color x:Key="Gray600">#444444</Color>
+    <Color x:Key="Gray900">#222222</Color>
+    <Color x:Key="Gray950">#121212</Color>
+
+    <!-- Pincéis (Brushes) -->
+    <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource Primary}" />
+    <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource Secondary}" />
+    <SolidColorBrush x:Key="TertiaryBrush" Color="{StaticResource Tertiary}" />
+    <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource White}" />
+    <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource Black}" />
+    <SolidColorBrush x:Key="Gray100Brush" Color="{StaticResource Gray100}" />
+    <SolidColorBrush x:Key="Gray200Brush" Color="{StaticResource Gray200}" />
+    <SolidColorBrush x:Key="Gray300Brush" Color="{StaticResource Gray300}" />
+    <SolidColorBrush x:Key="Gray400Brush" Color="{StaticResource Gray400}" />
+    <SolidColorBrush x:Key="Gray500Brush" Color="{StaticResource Gray500}" />
+    <SolidColorBrush x:Key="Gray600Brush" Color="{StaticResource Gray600}" />
+    <SolidColorBrush x:Key="Gray900Brush" Color="{StaticResource Gray900}" />
+    <SolidColorBrush x:Key="Gray950Brush" Color="{StaticResource Gray950}" />
+
+</ResourceDictionary>
