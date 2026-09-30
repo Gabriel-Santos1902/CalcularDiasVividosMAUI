@@ -20,6 +20,8 @@
 
             <Button x:Name="btnlimpar" Text="Limpar Campos" BackgroundColor="DarkGrey" Clicked="btnlimpar_Clicked" />
 
+            <Label x:Name="dificil" Text="Idade Atual:" FontSize="Subtitle" HorizontalOptions="Start"/>
+
         </VerticalStackLayout>
     </ScrollView>
 
